@@ -1,12 +1,24 @@
 .box{
 background-color: #cccccc;
 }
-.calculator {
+/* .calculator {
     width: 250px;
     margin: 20px auto;
     padding: 10px;
     border: 1px solid black;
     border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(93, 83, 70);
+  } */
+
+  .calculator {
+    width: 300px;
+    height: 350px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid black;
+    /* border-radius: 150px; */
     text-align: center;
     font-size: 20px;
     background-color: rgb(93, 83, 70);
