@@ -5,12 +5,12 @@ function addToScreen(val) {
   function clearScreen() {
     document.getElementById("screen").value = "";
   }
-  
-//   function backspace() {
-//     var screen = document.getElementById("screen");
-//     var screenValue = screen.value;
-//     screen.value = screenValue.substring(0, screenValue.length - 1);
-// }
+ 
+  function backspace() {
+    var screen = document.getElementById("screen");
+    var screenValue = screen.value;
+    screen.value = screenValue.substring(0, screenValue.length - 1);
+}
   
 function toggleSign() {
   var screen = document.getElementById("screen");
