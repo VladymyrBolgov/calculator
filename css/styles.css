@@ -57,3 +57,18 @@ background-color: #cccccc;
     background-color: #f0ad4e;
     color: white;
   }
+
+  .draganddrop{
+    width: 300px;
+    height: 30px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    background: linear-gradient(to bottom, #9e9999, #605353);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }

@@ -58,3 +58,4 @@ function recallMemory() {
   var screen = document.getElementById("screen");
   screen.value += memoryValue;
 }
+
